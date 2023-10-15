@@ -1,5 +1,6 @@
+<!-- eslint-disable prettier/prettier -->
 <script setup>
- import MainScore from '@/components/MainScore.vue'
+    import MainScore from '@/components/MainScore.vue'
 </script>
 
 <template>
