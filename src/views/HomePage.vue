@@ -1,13 +1,13 @@
+<!-- eslint-disable prettier/prettier -->
 <script setup>
   import { onMounted, ref } from 'vue'
   import useAPI from '@/composables/useAPI'
   import BaseTitle from '@/components/BaseTitle.vue'
 
-  const api = useAPI() 
-  const categories = ref([])
+  const { categories, getCategories } = useAPI() 
 
   onMounted(async () => {
-    categories.value = await api.getCategories()
+    await getCategories()
   })
   
 </script>

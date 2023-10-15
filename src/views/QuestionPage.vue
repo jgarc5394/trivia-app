@@ -2,7 +2,7 @@
 <script setup>
   import { onMounted, ref } from 'vue'
   import { useRoute } from 'vue-router'
-import { shuffle } from 'lodash-es'
+  import { shuffle } from 'lodash-es'
 
   import NotificationAnswers from '@/components/NotificationAnswers.vue'
 
