@@ -27,7 +27,7 @@
     showNotification.value = true
     setTimeout(() => {
     changeScore(points)
-    router.push('/')
+    router.push('/trivia-app/')
   }, 1000)
   }
 
